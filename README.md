@@ -1,5 +1,5 @@
 # integrated-gradient-for-bert
-Integrated gradient (IG) is used to interpret Bert's classification results.
+[积分梯度(Integrated gradient,IG)](https://arxiv.org/pdf/1703.01365.pdf)是一种归因方法用于解释神经网络的预测过程，即将预测结果归因为输入的重要性。例如，在图像分类中，能够对输入的每一个像素给出对应的重要性；在文本分类中，对输入的每一个词汇给出重要性。
 
 ## 模型&数据集
     dataset: IMDB
